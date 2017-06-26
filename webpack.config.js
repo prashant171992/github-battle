@@ -11,8 +11,9 @@ var config = {
 	},
 	module: {
 		rules : [
-			{ test: /\.(js)$/, use: 'babel-loader'},
-			{ test: /\.css$/, use: ['style-loader', 'css-loader']}
+			{ test: /\.(js)$/,use: 'babel-loader'},
+			{ test: /\.css$/, use: ['style-loader', 'css-loader']},
+			{ test: /\.(png|jpg|gif)$/, use: ['url-loader?limit=5000','image-webpack-loader']}
 		]
 	},
 	devServer: {

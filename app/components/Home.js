@@ -1,6 +1,6 @@
 var React = require('react');
 var Link = require('react-router-dom').Link;
-
+var Clock = require('./Clock');
 
 class Home extends React.Component {
 	render() {
@@ -10,6 +10,7 @@ class Home extends React.Component {
 				<Link className='button' to = '/battle'>
 					Battle
 				</Link>
+				<Clock/>
 			</div>
 		)
 	}
