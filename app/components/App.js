@@ -12,6 +12,11 @@ var Nav = require('./Nav');
 var Home = require('./Home');
 var Battle = require('./Battle');
 var Results = require('./Results');
+var img = require('../assets/dp.jpg')
+
+
+
+
 
 class App extends React.Component {
 	render() {
@@ -31,6 +36,7 @@ class App extends React.Component {
 							)
 						}}/>
 					</Switch>
+
 				</div>
 			</Router>
 		)

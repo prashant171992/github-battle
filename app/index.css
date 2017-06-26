@@ -3,6 +3,9 @@ body {
 	BlinkMacSystemFont,Segoe
 	UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica
 	Neue,sans-serif;
+  /*background:url('./assets/dp.jpg');
+  background-repeat: no-repeat;
+  background-position: center;*/
 }
 
 
@@ -22,6 +25,7 @@ a {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+
 }
 
 .languages {
@@ -54,6 +58,13 @@ a {
 .avatar {
 	width: 150px;
 	border-radius: 50%;
+}
+
+.new-avatar {
+  width: 150px;
+  bottom: 0;
+  right: 0;
+  position: fixed;
 }
 
 .popular-rank {
